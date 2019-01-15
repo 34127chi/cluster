@@ -1,0 +1,10 @@
+{
+    "train_file":"./data/train.txt",
+    "vocab_size":5000,
+    "sentence_length":120,
+    "embedding_dim":300,
+    "batch_size": 128,
+    "vocab_embedding":"./data/vocab.embedding.txt",
+    "train_id_file": "./data/sample.train_id",
+    "feature_file":"./data/sample.aveg_emb"
+}

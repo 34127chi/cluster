@@ -1,0 +1,5 @@
+{
+    "train_file":"./data/train.txt",
+    "n_components":100,
+    "feature_file":"./data/sample.tfidf_feature"
+}

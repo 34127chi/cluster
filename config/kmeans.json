@@ -1,0 +1,7 @@
+{
+    "train_file":"./data/train.txt",
+    "sample_number":10000,
+    "method":"kmeans",
+    "feature_file":"./data/sample.similiar_emb",
+    "cluster_number":200
+}

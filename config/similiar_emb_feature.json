@@ -1,0 +1,11 @@
+{
+   "train_file": "./data/train.txt",
+   "nclass":496,
+   "maxlen":64,
+   "word_size":256,
+   "cuda":false,
+   "model_file":"./sim/model/classify.model",
+   "vocab_file":"./sim/model/char.dict",
+   "stopword_file":"./sim/model/stopwords.txt",
+   "feature_file":"./data/sample.similiar_emb"
+}
