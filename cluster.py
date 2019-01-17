@@ -17,8 +17,7 @@ def hdbscan_cluster(params):
     random.seed(SEED)
     random.shuffle(indices)
     if params.sample_number >= len(train_feature):
-        params.sample_number = len(train_feature)
-        print("sample_number:" + str(params.sample_number))
+        print("sample_number:" + str(len(train_feature)))
     indices = indices[:params.sample_number]
     content = np.array(content)[indices].tolist()
     train_feature = np.array(train_feature)[indices].tolist()
@@ -175,8 +174,7 @@ def kmeans_cluster(params):
     random.seed(SEED)
     random.shuffle(indices)
     if params.sample_number >= len(train_feature):
-        params.sample_number = len(train_feature)
-        print("sample_number:" + str(params.sample_number))
+        print("sample_number:" + str(len(train_feature)))
     indices = indices[:params.sample_number]
     content = np.array(content)[indices].tolist()
     train_feature = np.array(train_feature)[indices].tolist()
